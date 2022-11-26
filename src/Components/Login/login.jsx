@@ -32,13 +32,13 @@ iniciarSesion(){
       alert("Usuario y/o contraseña inválidos");
     }
     else {
-      // cookies.set('_s', response.data.token,
-      // {
-      //   path: '/', 
-      //   expires:calcularExpirarSesion(),
-      // });
+      cookies.set('_s', response.data.token,
+      {
+        path: '/', 
+        expires:calcularExpirarSesion(),
+      });
       this.props.history.push("/productos");
-      
+      window.location.reload();
     }
     this.setState({loading:false});
 
