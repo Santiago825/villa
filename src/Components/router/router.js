@@ -11,7 +11,7 @@ export default function AppRouter(){
             <Switch>
 
                 <Route exact path={['/login']} component={Login} /> 
-                <Route exact path={['/']} component={Login} /> 
+                <Route exact path={['/']} component={Productosbuscar} /> 
                 <Route exact path={['/Index']} component={Index} /> 
                 <Route exact path={['/productos']} component={Productosbuscar} /> 
                 <Route exact path={'*'} component={()=>(

@@ -79,31 +79,31 @@ export default class Crear extends React.Component {
         <Row>
           <Form className="d-flex flex-wrap justify-content-center">
             <Form.Group className="mb-3 col-lg-5 mx-4 " controlId="formBasic">
-              <Form.Label>codigo_producto</Form.Label>
+              <Form.Label>Codigo producto</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue("codigo_producto", e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-5 mx-4" controlId="formBasic">
-              <Form.Label>nombre_producto</Form.Label>
+              <Form.Label>Nombre producto</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue("nombre_producto", e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-5 mx-4" controlId="formBasic">
-              <Form.Label>marca</Form.Label>
+              <Form.Label>Marca</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue("marca", e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-5 mx-4" controlId="formBasicEmail">
-              <Form.Label>descripcion</Form.Label>
+              <Form.Label>Descripcion</Form.Label>
               <Form.Control
                 onChange={(e) => this.setValue("descripcion", e.target.value)}
               />
             </Form.Group>
             <Form.Group className="mb-3 col-lg-5 mx-4" controlId="formBasic">
-              <Form.Label>precio</Form.Label>
+              <Form.Label>Precio</Form.Label>
               <Form.Control
               type="number"
                 onChange={(e) => this.setValue("precio", e.target.value)}
